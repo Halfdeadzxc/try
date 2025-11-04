@@ -1,0 +1,14 @@
+{
+  "name": "staruml-use-case-generator",
+  "version": "1.0.0",
+  "description": "Generate Use Case diagrams automatically",
+  "main": "main.js",
+  "scripts": {
+    "generate": "node main.js"
+  },
+  "staruml": {
+    "commands": {
+      "generateUseCase": "generateUseCase"
+    }
+  }
+}
