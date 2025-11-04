@@ -1,14 +1,16 @@
 {
-  "name": "staruml-use-case-generator",
-  "version": "1.0.0",
+  "name": "usecase-generator",
+  "title": "Use Case Generator",
   "description": "Generate Use Case diagrams automatically",
-  "main": "main.js",
-  "scripts": {
-    "generate": "node main.js"
+  "version": "1.0.0",
+  "keywords": ["use case", "generator", "uml"],
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com"
   },
-  "staruml": {
-    "commands": {
-      "generateUseCase": "generateUseCase"
-    }
-  }
+  "main": "main.js",
+  "engines": {
+    "staruml": ">=3.0.0"
+  },
+  "license": "MIT"
 }
